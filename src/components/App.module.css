@@ -1,0 +1,43 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #010101;
+  background-color: rgba(
+    rgb(237, 217, 217),
+    rgb(227, 240, 227),
+    rgb(217, 217, 235),
+    alpha
+  );
+}
+
+.feedbackButton {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.feedbackButton:hover {
+  background-color: #45a049;
+}
+
+.statisticsList {
+  list-style: none;
+  padding: 0;
+}
+
+.statisticsList li {
+  margin: 10px 0;
+}
+.cont {
+  text-align: center;
+}
